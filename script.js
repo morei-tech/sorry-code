@@ -60,6 +60,7 @@ document.querySelectorAll("[data-prev]").forEach(btn => {
 });
 
 // Forgiveness meter
+
 const forgiveBtn = document.getElementById("forgiveBtn");
 const progressFill = document.getElementById("progressFill");
 const percent = document.getElementById("percent");
@@ -75,7 +76,8 @@ forgiveBtn.addEventListener("click", () => {
   if (forgiveness >= 100) {
     meterBear.textContent = "🥰";
     percent.textContent = "100% FORGIVEN ❤️";
-    document.querySelector(".tap-hint").textContent = "YAY! I KNEW YOU HAD A BIG HEART 🥹";
+    document.querySelector(".tap-hint").textContent =
+      "YAY! I KNEW YOU HAD A BIG HEART 🥹";
   } else if (forgiveness >= 55) {
     meterBear.textContent = "😊";
   } else if (forgiveness >= 30) {
