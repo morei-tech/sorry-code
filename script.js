@@ -12,9 +12,10 @@
 // taps the first "Listen to my heart" button.
 
 const SONGS = [
-  { title: "Your song 1", file: "songs/song1.mp3" },
-  { title: "Your song 2", file: "songs/song2.mp3" },
-  { title: "Your song 3", file: "songs/song3.mp3" }
+  {
+    title: "Bin Jere",
+    file: "Bin Jere | Hate Luv Storys 128 Kbps.mp3"
+  }
 ];
 
 // ===============================
