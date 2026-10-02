@@ -17,7 +17,6 @@ const SONGS = [
     file: "Bin Tere | Hate Luv Storys 128 Kbps.mp3"
   }
 ];
-
 // ===============================
 
 const screens = [...document.querySelectorAll(".screen")];
